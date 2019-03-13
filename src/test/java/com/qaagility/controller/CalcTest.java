@@ -23,7 +23,9 @@ public class CalcTest {
 	Calcmul testcalmul = new Calcmul();
 	Calculator testcaladd = new Calculator();
         assertEquals(testcalmul.mul(), 18);
+	assertEquals(testcalmul.mul(), 15);
 	assertEquals(testcaladd.add(), 9);
+	assertEquals(testcaladd.add(), 19);
       }
 
 	@Test	

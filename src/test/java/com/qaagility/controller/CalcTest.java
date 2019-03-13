@@ -22,8 +22,10 @@ public class CalcTest {
       public void testCalc() {
 	Calcmul testcalmul = new Calcmul();
 	Calculator testcaladd = new Calculator();
+	System.out.println("Mul Started");   
         assertEquals(testcalmul.mul(), 18);
-	assertEquals(testcalmul.mul(), 18);
+	assertEquals(testcalmul.mul(), 25);
+	System.out.println("Addition Started");
 	assertEquals(testcaladd.add(), 9);
 	assertEquals(testcaladd.add(), 19);
       }
